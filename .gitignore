@@ -6,9 +6,7 @@
 *.db
 *.*~
 *.sqlite3
-/enpasswork/Include
-/enpasswork/Scripts
-
+/enpasswork
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
