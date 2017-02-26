@@ -1,0 +1,5 @@
+Collecting django-extensions
+  Using cached django_extensions-1.7.4-py2.py3-none-any.whl
+Requirement already satisfied: six>=1.2 in /home/sinew11/virtualenv/enpasswork/lib/python2.7/site-packages (from django-extensions)
+Installing collected packages: django-extensions
+Successfully installed django-extensions-1.7.4

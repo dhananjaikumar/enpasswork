@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ organization_name|default:_('Administration') }}</a></h1>
+{% block licence %}
+{% if has_permission %}
+<p style="font-size: smaller;color:#ffc;font-weight: bold;">ACTIVE LICENSES: {{ activeMembers}}</p>
+{% endif %}
+{% endblock %}
+{% endblock %}
+
+
+{% block nav-global %}{% endblock %}
